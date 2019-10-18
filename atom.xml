@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>大兵的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.sorrytime.cn/"/>
+  <updated>2019-10-18T11:01:30.139Z</updated>
+  <id>https://www.sorrytime.cn/</id>
+  
+  <author>
+    <name>Zhibin Jin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IPFS.io 访问设置</title>
+    <link href="https://www.sorrytime.cn/2019/10/16/IPFS-io-%E8%AE%BF%E9%97%AE%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://www.sorrytime.cn/2019/10/16/IPFS-io-访问设置/</id>
+    <published>2019-10-16T01:00:21.000Z</published>
+    <updated>2019-10-18T11:01:30.139Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><h1 id="查找主机hosts文件"><a href="#查找主机hosts文件" class="headerlink" title="查找主机hosts文件"></a>查找主机hosts文件</h1><h2 id="Windows-hosts系统文件目录"><a href="#Windows-hosts系统文件目录" class="headerlink" title="Windows hosts系统文件目录"></a>Windows hosts系统文件目录</h2><p>hosts文件一般放在<code>C:\Windows\System32\drivers\etc</code>，如果没有请全盘搜索。</p><h1 id="修改Hosts文件"><a href="#修改Hosts文件" class="headerlink" title="修改Hosts文件"></a>修改Hosts文件</h1><h2 id="windows系统hosts文件修改"><a href="#windows系统hosts文件修改" class="headerlink" title="windows系统hosts文件修改"></a>windows系统hosts文件修改</h2><p>末尾加入以下两行</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">209.94.78.78        ipfs.io</span><br><span class="line">209.94.90.1         ipfs.io</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;h1 id=&quot;查找主机hosts文件&quot;&gt;&lt;a href=&quot;#查找主机hosts文件&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+    
+      <category term="IPFS" scheme="https://www.sorrytime.cn/categories/IPFS/"/>
+    
+    
+      <category term="ipfs.io访问设置" scheme="https://www.sorrytime.cn/tags/ipfs-io%E8%AE%BF%E9%97%AE%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>.MD常用语法</title>
+    <link href="https://www.sorrytime.cn/2019/10/11/MD%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/"/>
+    <id>https://www.sorrytime.cn/2019/10/11/MD常用语法/</id>
+    <published>2019-10-11T08:54:40.000Z</published>
+    <updated>2019-10-18T11:03:59.474Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><p>.md(markdown)是一种快速标记、快速排版语言，目前很多项目的readme都是使用.md文件编写。</p><h1 id="常用符号-‘-gt-’"><a href="#常用符号-‘-gt-’" class="headerlink" title="常用符号 ‘# * - . &gt;’"></a>常用符号 ‘# * - . &gt;’</h1><p>常用符号开头后的空格要注意，空格用于分割标记符合内容。</p><h1 id="标题符号‘-’"><a href="#标题符号‘-’" class="headerlink" title="标题符号‘#’"></a>标题符号‘#’</h1><h2 id="正常标签"><a href="#正常标签" class="headerlink" title="正常标签"></a>正常标签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题 </span><br><span class="line">## 二级标题 </span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br></pre></td></tr></table></figure><h2 id="标签闭合"><a href="#标签闭合" class="headerlink" title="标签闭合"></a>标签闭合</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题 #</span><br><span class="line">## 二级标题 ##</span><br><span class="line">### 三级标题 ###</span><br><span class="line">#### 四级标题 ####</span><br></pre></td></tr></table></figure><h1 id="列表符号‘-1-’"><a href="#列表符号‘-1-’" class="headerlink" title="列表符号‘+ 1.’"></a>列表符号‘+ 1.’</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+ a </span><br><span class="line">+ b </span><br><span class="line">+ c</span><br></pre></td></tr></table></figure><ul><li>a</li><li>b</li><li>c</li></ul><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. a</span><br><span class="line">2. b</span><br><span class="line">3. c</span><br></pre></td></tr></table></figure><ol><li>a</li><li>b</li><li>c</li></ol><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;p&gt;.md(markdown)是一种快速标记、快速排版语言，目前很多项目的readme都是使用.md文件编写。&lt;/p&gt;&lt;h1 i
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="https://www.sorrytime.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term=".MD语法" scheme="https://www.sorrytime.cn/tags/MD%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《Thinking In Java》读书笔记</title>
+    <link href="https://www.sorrytime.cn/2019/10/11/%E3%80%8AThinking-In-Java%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>https://www.sorrytime.cn/2019/10/11/《Thinking-In-Java》读书笔记/</id>
+    <published>2019-10-11T06:31:13.000Z</published>
+    <updated>2019-10-11T11:45:52.746Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="https://www.sorrytime.cn/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="《Thinking In Java》" scheme="https://www.sorrytime.cn/tags/%E3%80%8AThinking-In-Java%E3%80%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构-四叉树</title>
+    <link href="https://www.sorrytime.cn/2019/10/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%9B%9B%E5%8F%89%E6%A0%91/"/>
+    <id>https://www.sorrytime.cn/2019/10/07/数据结构-四叉树/</id>
+    <published>2019-10-07T07:54:51.000Z</published>
+    <updated>2019-10-11T11:45:52.747Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="数据结构" scheme="https://www.sorrytime.cn/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="四叉树" scheme="https://www.sorrytime.cn/tags/%E5%9B%9B%E5%8F%89%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构-单链表</title>
+    <link href="https://www.sorrytime.cn/2019/10/06/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%8D%95%E9%93%BE%E8%A1%A8/"/>
+    <id>https://www.sorrytime.cn/2019/10/06/数据结构-单链表/</id>
+    <published>2019-10-06T12:41:50.000Z</published>
+    <updated>2019-10-11T11:45:52.746Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="数据结构" scheme="https://www.sorrytime.cn/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="单链表" scheme="https://www.sorrytime.cn/tags/%E5%8D%95%E9%93%BE%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 常用命令</title>
+    <link href="https://www.sorrytime.cn/2018/10/06/hexo/"/>
+    <id>https://www.sorrytime.cn/2018/10/06/hexo/</id>
+    <published>2018-10-06T12:41:50.000Z</published>
+    <updated>2019-10-11T11:45:52.746Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/</a></p><p><a href="https://blog.cofess.com/2017/11/01/hexo-blog-theme-pure-usage-description.html" target="_blank" rel="noopener">https://blog.cofess.com/2017/11/01/hexo-blog-theme-pure-usage-description.html</a></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noo
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="https://www.sorrytime.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.sorrytime.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图片测试</title>
+    <link href="https://www.sorrytime.cn/2017/10/06/post-name/"/>
+    <id>https://www.sorrytime.cn/2017/10/06/post-name/</id>
+    <published>2017-10-06T12:41:50.000Z</published>
+    <updated>2019-10-11T11:45:52.746Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --><h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p><img src="time.jpg" alt="time"></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Oct 18 2019 21:06:01 GMT+0800 (China Standard Time) --&gt;&lt;h2 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://www.sorrytime.cn/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="https://www.sorrytime.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
